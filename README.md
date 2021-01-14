@@ -1,5 +1,7 @@
 # art-gallery
 
+Hobby project about learning front end web development as well as just having a nice website I can show off my art on.
+
 ## Project setup
 ```
 npm install
