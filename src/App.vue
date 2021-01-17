@@ -15,9 +15,11 @@
     <v-main>
 
       <!-- Provides the application the proper gutter -->
+      <v-img src='./assets/stained-bg.jpg'>
       <v-container fluid>
         <router-view></router-view>
       </v-container>
+      </v-img>
     </v-main>
 
     <v-footer app>
