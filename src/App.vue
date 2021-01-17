@@ -16,8 +16,13 @@
 
       <!-- Provides the application the proper gutter -->
       <v-container fluid>
+        <v-img src='./assets/stained-bg.jpg'
+        lazy-src='./assets/stained-bg.jpg'
+        contain>
         <router-view></router-view>
+        </v-img>
       </v-container>
+      
     </v-main>
 
     <v-footer app>

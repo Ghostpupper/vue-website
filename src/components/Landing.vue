@@ -1,12 +1,12 @@
 <template>
-  <v-container>
-    <v-row class="text-center">
+  <v-container >
+    <v-row class="text-center" align="center">
       <v-col cols="12">
         <v-img
-          :src="require('../assets/burgunymario.png')"
+          :src="require('../assets/burgundymario.png')"
           class="my-3"
           contain
-          height="200"
+          height="400"
         />
       </v-col>
 
@@ -47,7 +47,7 @@
 
 <script>
   export default {
-    name: 'HelloWorld',
+    name: 'Landing',
 
     data: () => ({
       importantLinks: [
@@ -63,3 +63,7 @@
     }),
   }
 </script>
+
+<style scoped>
+
+</style>
