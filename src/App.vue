@@ -1,13 +1,10 @@
 <template>
   <v-app>
-    <!--<v-navigation-drawer app>-->
-      
-    <!--</v-navigation-drawer>-->
-
+    <Sidebar />
     <v-system-bar app
     fixed window>
       <header class="header">
-        <h1>Welcome</h1>
+        <v-divider></v-divider>
       </header>
     </v-system-bar>
 
@@ -36,14 +33,15 @@
 </template>
 
 <script>
-
+import Sidebar from './components/Sidebar.vue'
 export default {
   name: 'App',
   components: {
+    Sidebar
   }
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 
 </style>
