@@ -1,7 +1,16 @@
 <template>
-<v-navigation-drawer app expand-on-hover permanent>
-    <v-list
-        nav shaped>
+<v-navigation-drawer app permanent>
+    <v-list nav>
+        <v-list-item 
+        :to="'/'">
+        <v-list-item-icon>
+            <v-icon>mdi-home</v-icon>
+        </v-list-item-icon>
+        <v-list-item-title>Home</v-list-item-title>
+        </v-list-item>
+    </v-list>
+    <v-divider></v-divider>
+    <v-list nav shaped>
         <v-list-item 
         v-for="(link, i) in routesLinks"
         :key="i"
@@ -12,8 +21,10 @@
         <v-list-item-title>{{ link.text }}</v-list-item-title>
         </v-list-item>
 
+    </v-list>
         <v-divider></v-divider>
-
+        <v-list
+        nav dense>
         <v-list-item 
         v-for="(link, i) in socialmediaLinks"
         :key="i"

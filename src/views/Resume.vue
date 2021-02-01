@@ -1,5 +1,5 @@
 <template>
-  <div class="resume">
+  <v-container>
     <h1>This is my Resume</h1>
-  </div>
+  </v-container>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="interests">
+  <v-container>
     <h1>This is the interests page</h1>
-  </div>
+  </v-container>
 </template>

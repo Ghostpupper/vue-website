@@ -1,8 +1,7 @@
 <template>
   <v-app>
     <Sidebar />
-    <v-system-bar app
-    fixed window>
+    <v-system-bar app>
       <header class="header">
         <v-divider></v-divider>
       </header>
