@@ -1,5 +1,5 @@
 <template>
-<v-navigation-drawer app permanent>
+<v-navigation-drawer app permanent expand-on-hover>
     <v-list nav>
         <v-list-item 
         :to="'/'">

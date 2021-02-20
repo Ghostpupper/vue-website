@@ -12,13 +12,16 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          My art page
+          My first own website (actually on the internet)
         </h1>
+        <v-container id="text-box">
 
-        <p class="subheading font-weight-regular">
-          An idea for an art page I can send to show of stuff I made
+        <p class="font-weight-regular">
+          My name is Mattias Gustafsson and I am a swedish Software Developer living in Gothenburg.
+          When I was little I wanted to make my own website but I thought it was impossible. <br> Turns out its not really that hard.
           <br>My email is: <i>9207gusmat@gmail.com</i>
         </p>
+        </v-container>
       </v-col>
 
       <v-col
@@ -65,5 +68,10 @@
 </script>
 
 <style scoped>
+#text-box {
+  box-sizing: content-box;
+  width: 100%;
+  padding: 5px;
+}
 
 </style>
