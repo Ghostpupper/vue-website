@@ -9,19 +9,15 @@
 
     <!-- Sizes your content based upon application components -->
     <v-main>
+      <div class="bg">
 
       <!-- Provides the application the proper gutter -->
-      <v-img src='./assets/stained-bg.jpg'
-        lazy-src='./assets/stained-bg.jpg'
-        min-width="600px"
-        max-height="100%">
-      <v-container>
+      <v-container >
         
         <router-view></router-view>
         
       </v-container>
-      </v-img>
-      
+      </div>
     </v-main>
 
     <v-footer app>
@@ -41,9 +37,21 @@ export default {
   components: {
     Sidebar
   }
+  
 }
 </script>
 
-<style lang="scss">
+<style>
+  .bg {
+    /* The image used */
+    background-image: url('./assets/stained-bg.jpg');
 
+    /* Half height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
 </style>

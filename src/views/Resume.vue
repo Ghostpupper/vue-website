@@ -1,6 +1,16 @@
 
 <template>
-  <v-container>
-    <h1>This is my Resume</h1>
-  </v-container>
-</template> 
+  <div>
+    <welcome />
+    <about-me />
+  </div>
+</template>
+
+<script>
+export default {
+  components: {
+    AboutMe: () => import('@/components/AboutMe'),
+    Welcome: () => import('@/components/Welcome')
+  }
+}
+</script>
