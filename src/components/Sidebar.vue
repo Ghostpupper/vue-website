@@ -71,16 +71,6 @@ export default {
           text: 'My Interests',
           path: '/interests',
           icon: 'mdi-triforce'
-        },
-        {
-          text: 'My References',
-          path: '/references',
-          icon: 'mdi-ufo'
-        },
-        {
-          text: 'My Art',
-          path: '/art',
-          icon: 'mdi-guitar-electric'
         }
       ]
     }),
