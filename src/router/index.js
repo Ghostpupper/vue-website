@@ -2,9 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import Art from '../views/Art.vue'
 import Interests from '../views/Interests.vue'
-import References from '../views/References.vue'
 import Resume from '../views/Resume.vue'
 
 Vue.use(VueRouter)
@@ -21,19 +19,9 @@ const routes = [
     component: About
   },
   {
-    path: '/art',
-    name: 'Art',
-    component: Art
-  },
-  {
     path: '/interests',
     name: 'Interests',
     component: Interests
-  },
-  {
-    path: '/references',
-    name: 'References',
-    component: References
   },
   {
     path: '/resume',
