@@ -55,12 +55,24 @@
     data: () => ({
       importantLinks: [
         {
+          icon: 'mdi-github',  
           text: 'GitHub',
           href: 'https://github.com/Ghostpupper',
         },
         {
-          text: 'Instagram',
-          href: 'https://www.instagram.com/mattisborgen1992/',
+          text: 'Spotify',
+          href: 'https://open.spotify.com/user/magmaberg?si=Wl7LN-TDRAGf7bB9ZpsNBA',
+          icon: 'mdi-spotify'
+        },
+        {
+          text: 'Linkedin',
+          href: 'https://www.linkedin.com/in/mattias-gustafsson-6b6b45b1/',
+          icon: 'mdi-linkedin'
+        },
+        {
+          text: 'DeviantArt',
+          href: 'https://www.deviantart.com/madghostdog',
+          icon: 'mdi-deviantart'
         }
       ]
     }),
