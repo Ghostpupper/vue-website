@@ -51,9 +51,9 @@ export default {
           href: 'https://github.com/Ghostpupper',
         },
         {
-          text: 'Instagram',
-          href: 'https://www.instagram.com/mattisborgen1992/',
-          icon: 'mdi-instagram'
+          text: 'Spotify',
+          href: 'https://open.spotify.com/user/magmaberg?si=Wl7LN-TDRAGf7bB9ZpsNBA',
+          icon: 'mdi-spotify'
         },
         {
           text: 'Linkedin',
