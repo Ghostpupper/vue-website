@@ -60,6 +60,11 @@ export default {
           href: 'https://www.linkedin.com/in/mattias-gustafsson-6b6b45b1/',
           icon: 'mdi-linkedin'
         },
+        {
+          text: 'DeviantArt',
+          href: 'https://www.deviantart.com/madghostdog',
+          icon: 'mdi-deviantart'
+        }
       ],
       routesLinks: [
         {
