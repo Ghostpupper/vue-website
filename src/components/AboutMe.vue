@@ -61,7 +61,7 @@
         md6
       >
         <v-img
-          :src="require('@/assets/aboutme.png')"
+          :src="require('@/assets/eriksbergkranen.jpg')"
           height="100%"
         />
       </v-flex>

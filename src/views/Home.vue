@@ -12,7 +12,7 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          My first own website (actually on the internet)
+          Welcome to my Website!
         </h1>
         <v-container id="text-box">
 
