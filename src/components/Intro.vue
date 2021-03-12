@@ -10,7 +10,7 @@
       >
         <v-img
           :src="require('@/assets/selfie.jpg')"
-          height="80vh"
+          height="70vh"
         />
       </v-flex>
 

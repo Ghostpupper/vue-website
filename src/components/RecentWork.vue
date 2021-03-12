@@ -88,14 +88,14 @@ export default {
           text: 'Test Engineer for Volvo Aftermarket Diagnostic solutions. Mainly manual vehicle testing using rigs but also some automation test development.',
           skills: 'Skills: Software Testing, Diagnostics, UFT, Visual Basic, Canoe, E2E testing',
           dates: '07/2017 - 07/2018',
-          company: 'Volvo Group Trucks Technology - Consultant for Devport'
+          company: 'Volvo Group Trucks Technology - Consultant'
         },
         {
           name: 'Software Engineering Consultant',  
           text: '2nd line Technical support engineer for volvo group managing authenticationsystems, testing and fault tracing diagnostic solution tools for Volvo Group After-market.',
           skills: 'Skills: Volvo central systems, diagnostic fault tracing, software management,end user relations',
           dates: '08/2016 - 07/2017',
-          company: 'Volvo Group Trucks Technology - Consultant for Sigma'
+          company: 'Volvo Group Trucks Technology - Consultant'
         },
         {
           name: 'Mechatronics Bachelor Thesis',  
