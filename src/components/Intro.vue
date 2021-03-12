@@ -22,6 +22,9 @@
         :pa-5="$vuetify.breakpoint.smAndDown"
         wrap
       >
+        <base-bubble-1
+          style="transform: rotate(180deg) translateY(25%)"
+        />
 
         <v-layout
           align-center
@@ -33,7 +36,7 @@
           >
             <base-heading>My Resume!</base-heading>
             <base-text>
-              I thrive to work in a well connected tight team where everyone can bring their inputs to the table. Its great to be in a "T-shaped" role where I can be free to explore a wide range of tasks and technologies.<br>
+              Im a playful and social for being a software engineer. But I also take great pride in my work and ensure the things I work on has high quality.<br>
               Im currently a Software Integration Engineer and a Scrum Master at a large heavy duty Vehicle Company.
             </base-text>
           </v-flex>
@@ -46,3 +49,4 @@
     </v-layout>
   </section>
 </template>
+
