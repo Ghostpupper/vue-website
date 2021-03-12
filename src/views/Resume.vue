@@ -1,8 +1,9 @@
 
 <template>
   <div>
-    <welcome />
+    <intro />
     <about-me />
+    <recent-work />
   </div>
 </template>
 
@@ -10,7 +11,8 @@
 export default {
   components: {
     AboutMe: () => import('@/components/AboutMe'),
-    Welcome: () => import('@/components/Welcome')
+    Intro: () => import('@/components/Intro'),
+    RecentWork: () => import('@/components/RecentWork'),
   }
 }
 </script>
