@@ -62,6 +62,7 @@
       >
         <v-img
           :src="require('@/assets/eriksbergkranen.jpg')"
+
           height="100%"
         />
       </v-flex>
