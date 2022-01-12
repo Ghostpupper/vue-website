@@ -76,10 +76,10 @@ export default {
     skills: [
       {
         name: 'Python',
-        value: 85
+        value: 90
       },
       {
-        name: 'Software Testing',
+        name: 'CI / CD',
         value: 75
       },
       {
@@ -87,7 +87,7 @@ export default {
         value: 70
       },
       {
-        name: 'CI / CD',
+        name: 'Software Testing',
         value: 65
       },
       {
