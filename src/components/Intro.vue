@@ -37,7 +37,7 @@
             <base-heading>My Resume!</base-heading>
             <base-text>
               I thrive to work in a well connected tight team where everyone can bring their inputs to the table. Its great to be in a "T-shaped" role where I can be free to explore a wide range of tasks and technologies.<br>
-              Im currently a Software Integration Engineer and a Scrum Master at a large heavy duty Vehicle Company.
+              Im currently a Software Integration Engineer and a programmer at a large heavy duty Vehicle Company.
             </base-text>
           </v-flex>
         </v-layout>
