@@ -1,6 +1,7 @@
 # art-gallery
 
-Hobby project about learning front end web development as well as just having a nice website I can show off my art on.
+Hobby project about learning front end web development as well as just having a nice website as a place to put my resume.
+You can find the website here: https://mattias-gustafsson.netlify.app/
 
 ## Project setup
 ```
